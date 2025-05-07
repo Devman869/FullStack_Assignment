@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Override navbar background to black */
+.navbar {
+  background-color: #000 !important;
+}
+
+/* Navbar link hover styling */
+.navbar-nav .nav-link {
+  transition: all 0.3s ease;
+  text-decoration: none !important; /* Removes underline */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700; /* Gold text on hover */
+  background-color: rgba(255, 255, 255, 0.1); /* Optional soft background effect */
+  border-radius: 5px;
+}
+
+.container {
+  padding: 30px 20px;
+}
+
+h1 {
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+
+pre {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Optional: Make cards look more clickable */
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
